@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background:#FFCD9E;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    box-sizing:border-box;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:150px;
+    margin-right:60px;
+    font-family: Inter;
+    font-size:2.5em;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+h4,.team {
+    margin-bottom:10px;
+    margin-left:150px;
+    margin-right:220px;
+    line-height: .7cm;
+    font-size:1.2em;
+    font-family: Inter;
+}
+
+.flex2 {
+    color:white;
+    display:flex;
+    background:#282828;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.flex2>div{
+    display:flex;
+    flex-direction:row;
+    padding:10px;
+}
+.left_side{
+    box-sizing:border-box;
+    margin-top:70px;
+    margin-right:50px;
+    margin-left:200px;
+    margin-bottom:50px;
+    font-size:1.3em;
+    font-family: Inter;
+    line-height:35px;
+}
+.right_side{
+    text-align:right;
+    margin-top:70px;
+    margin-right:250px;
+    margin-bottom:52px;
+    font-size:1.3em;
+    font-family: Inter;
+    line-height:35px;
+}
+input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    height:25px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius:8px;
+    margin-left: 150px;
+    font-size:1em;
+    font-family: Inter;
+}
+button {
+    padding: 10px;
+    background-color:#282828;
+    color:white;
+    border: 2px solid #282828;
+    cursor: pointer;
+    width:180px;
+    height:50px;
+    border-radius:8px;
+    box-sizing:border-box;
+    margin:10px;
+    font-size:1em;
+    font-family: Inter;
+
+}
+.no_span{
+    color:white;
+    margin:20px;
+    font-size:.9em;
+    font-family: Inter;
+    margin-left:180px;
+    
+}
+
+#dweep{
+    align-self: flex-end;
+    margin-right:100px;
+}
