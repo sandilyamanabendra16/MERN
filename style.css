@@ -1,0 +1,11 @@
+h1{
+    color:#7d677d;
+}
+body{
+    height 100 vh;
+    background-image:url('tedy.jpeg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    background-attachment: fixed;
+}

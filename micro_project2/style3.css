@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #fff;
+}
+
+
+li{
+    list-style:none;
+}
+header{
+    padding: 0;
+    margin-top:10px;
+}
+.navbar{
+    position:fixed;
+    top:0px;
+    background-color:#7343dbf9;
+    color:white;
+    font-size:1.7rem;
+    width:100vw;
+    height:100px;
+    margin-top:0px ;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+    position:relative;
+    left:-100px;
+}
+.logo{
+    height:40px;
+    width:200px;
+    margin:30px;
+
+}
+.search{
+    background-color: #7343dbf9;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+}
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: #ffffff82;
+    height: 40px;
+    width: 250px;
+    padding: 6px 10px;
+    border-radius:30px;
+    background-color:white;
+    position:fixed;
+    top:25px;
+    right:250px;
+  }
+  .search img{
+    width:50px;
+    height:50px;
+    margin-left:230px;
+  }
+
+button {
+    background-color: #000;
+    color:#fff;
+    all: unset;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    /* border-radius:20px; */
+    position:fixed;
+    right:250px;
+    top:35px;
+  }
+  
+  svg {
+    color:rgba(148, 145, 145, 0.756);
+    fill: currentColor;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+  }
+
+.hero{
+    margin-top:200px;
+    margin-bottom:0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px 30px;
+    display:flex;
+    justify-content:space-between;
+
+}
+.hola{
+    height:400px;
+    width:400 px;
+    border-radius:20px;
+    box-shadow: 10px 10px 5px rgba(131, 144, 148, 0.391);
+}
+.para{
+    background-color:rgb(219, 173, 219);
+    height:400px;
+    width:750px;
+    color:000;
+    padding: 20px 20px;
+    border-radius:20px;
+    font-size: 1.3rem;
+    line-height:.9cm;
+}
+
+
+  .fourth{
+    background-color:purple;
+    width:120%;
+    height:60px;
+    margin:0px;
+    /* display:flex;
+    align-items:center;
+    justify-content:space-between; */
+  }
+  
+  .fouth .boxes{
+    position:relative;
+    margin-top:50px;
+    margin-bottom:50px;
+    right:-10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+  }
+  .totala {
+    color: #fff;
+    background-color: #6532d4;
+    border-radius:  10px;
+    padding: 18px 18px;
+    height: 100px;
+    width:270px;
+    line-height: .9cm;
+    font-size:1.3rem;
+    box-shadow: 5px 5px 5px 5px rgba(200, 197, 197, 0.908);
+}
+
+  .totalq{
+    color: #fff;
+    background-color: rgb(160, 154, 232);
+    border-radius:  10px;
+    padding: 18px 18px;
+    height: 100px;
+    width:270px;
+    margin-left:100px;
+    line-height: .9cm;
+    font-size:1.3rem;
+    box-shadow: 5px 5px 5px 5px rgba(200, 197, 197, 0.908);
+
+  }
+  .participated{
+    color: #fff;
+    background-color:#cf61cb;
+    border-radius:  10px;
+    padding: 18px 18px;
+    height: 100px;
+    width:270px;
+    margin:20px;
+    line-height: .9cm;
+    font-size:1.3rem;
+    box-shadow: 5px 5px 5px 5px rgba(200, 197, 197, 0.908);
+  }
+  .totalp{
+    color: #fff;
+    background-color: #000;
+    border-radius:  10px;
+    padding: 18px 18px;
+    height: 100px;
+    width:270px;
+    margin-right:100px;
+    line-height: .9cm;
+    font-size:1.3rem;
+    box-shadow: 5px 5px 5px 5px rgba(200, 197, 197, 0.908);
+  }
+
+  .bottom{
+    height: 500px;
+    width: 1230px;
+    background-color: rgb(70, 70, 236);
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding: 20px 20px;
+    border-radius:30px;
+    display: flex;
+    
+  }
+  .boxes1 div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 120px;
+    margin:30px;
+    align-items:center;
+    border-style: solid;
+    border-color:#fff;
+    border-width:2px;
+    padding: 30px 30px;
+    border-radius:20px;
+  }
+  
+  .bottom .boxes1 div{
+    font-size:1.5rem;
+    color: white;
+    padding: 45px 45px;
+  }
+  /* color not changing in division info1 */
+ #info1{
+    background-color:rgb(81, 190, 190);;
+ }
+
+ .info{
+    background-color: white;
+    color:rgb(8, 8, 78);
+    width: 830px;
+    border-radius:20px;
+    padding: 50px 50px;
+ }
+
+h2{
+    font-size:  2rem;
+    margin-bottom: 30px;
+}
+.info p{
+    padding:0px 50px;;
+    font-size: 1.3rem;
+    line-height:1.2cm;
+}
+
+.info button {
+    background-color: Black;
+    color: white;
+    height:30px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    position:relative;
+    bottom:-60px;
+    right:-570px;
+}
+.foot{
+    margin-bottom:0px;
+    background-color:#fff;
+    color:#fff;
+}
+.foot1{
+    left: 1200px;
+    height:150px;
+    width:150px;
+}
+.foot1 img{
+    position:fixed;
+    bottom: 20px;
+    right:20px;
+    height:150px;
+    width:150px;
+}
+
+.icons{
+    position:sticky;
+    left:1330px;
+    right:20px;
+    bottom:350px;
+    top:150px;
+    height:200px;
+    width: 90px;
+    float:right;
+}

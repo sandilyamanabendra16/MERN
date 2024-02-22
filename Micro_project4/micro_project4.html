@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  charset="UTF-8">
+        <meta  name="viweport" content="width=device-width,initial-scale=1">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style4.css">
+    </head>
+    <body>
+        <main>
+            <div> <input class="input1" type="text" id="result"></div>
+            <div id="numbers">
+                <button  class="items" type="submit" onclick="dis('7')"
+                onkeydown="myFunction(event)">7</button>
+                <button class="items"  type="submit" onclick="dis('8')"
+                onkeydown="myFunction(event)">8</button>
+                <button class="items" type="submit" onclick="dis('9')"
+                onkeydown="myFunction(event)">9</button>
+                <button id="delete" class="items"  type="submit" onclick="del()"
+                onkeydown="myFunction(event)">DEL</button>
+
+                <button class="items" type="submit" onclick="dis('4')"
+                onkeydown="myFunction(event)">4</button>
+                <button class="items" type="submit"  onclick="dis('5')"
+                onkeydown="myFunction(event)">5</button>
+                <button class="items"  type="submit" onclick="dis('6')"
+                onkeydown="myFunction(event)">6</button>
+                <button class="items"  type="submit" onclick="dis('+')"
+                onkeydown="myFunction(event)">+</button>
+
+                <button class="items" type="submit" onclick="dis('1')"
+                onkeydown="myFunction(event)">1</button>
+                <button class="items" type="submit" onclick="dis('2')"
+                onkeydown="myFunction(event)">2</button>
+                <button class="items" type="submit" onclick="dis('3')"
+                onkeydown="myFunction(event)">3</button>
+                <button class="items" type="submit" onclick="dis('-')"
+                onkeydown="myFunction(event)">-</button>
+
+                <button class="items"  type="submit" onclick="dis('.')"
+                onkeydown="myFunction(event)">.</button>
+                <button class="items" type="submit" onclick="dis('0')"
+                onkeydown="myFunction(event)">0</button>
+                <button class="items" type="submit" onclick="dis('/')"
+                onkeydown="myFunction(event)">/</button>
+                <button class="items" type="submit" onclick="dis('*')"
+                onkeydown="myFunction(event)">×</button>
+                
+                <button id="reset" class="items" type="reset" onclick="clr()">RESET</button>
+                <button id="equals" class="items" type="submit" value ="=" onclick="solve()">=</button>
+                
+        
+            </div>
+        </main>
+        <script src="script4.js"></script>
+    </body>
+
+</html>
